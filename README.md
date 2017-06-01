@@ -1,3 +1,3 @@
-# GWC_ex
+# GWC
 
 This is an exmaple for GWC
