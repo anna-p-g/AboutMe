@@ -1,8 +1,12 @@
-var color = document.getElementById("demo").bgcolor
+var color = document.getElementById("demo").bgcolor;
+var x;
+
+function changecolor(x){
+  for (i = 0; i < 3; i++){
+    color[i] = x;
+  }
+}
 
 while (True){
-  color = "rgb(255, 0, 0)"
-  color = "rgb(0, 255, 0)"
-  color = "rgb(0, 0, 255)"
   
 }
