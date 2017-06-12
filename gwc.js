@@ -1,4 +1,4 @@
-var color = document.getElementById("body").bgcolor
+var color = document.getElementById("demo").bgcolor
 
 while (True){
   color = "rgb(255, 0, 0)"
