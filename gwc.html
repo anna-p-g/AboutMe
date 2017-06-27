@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <style>
-    h1 {
-        color: rgb(255, 0, 0);
-        font-size: 36px;
-        font-family: Arial;
-    }
-    p {
-      color: rgb(0, 255, 0);
-      font-size: 18px;
-      font-family: Arial;
-    }
-          
-  </style>
-  <body id = "demo">
-    <script src = "https://github.com/anna-p-g/GWC/edit/master/gwc.js"> </script>
-  </body>
-  </head>
-</html>
+<head></head>
+<body>
+<style>
+
+.list{
+
+}
+
+.tabcontent{
+  color: red;
+  display: none;
+  padding: 20px;
+  float: left;
+  align: center;
+}
+
+.tablink{
+  color: black;
+}
+
+</style>
+
+
+<div id = "aboutMe" class = "tabcontent">
+<h1> These are my interests </h1>
+
+<div id = "workExperience" class = "tabcontent">
+  <h1> This is my work experience </h1>
+
+<div id = "projects" class = "tabcontent">
+  <h1> These are my projects </h1>
+</div>
+
+<button class = "tablink" onclick = "openTab('aboutMe')"> About Me </button>
+<button class = "tablink" onclick = "openTab('workExperience')"> Work Experience </button>
+<button class = "tablink" onclick = "openTab('projects')"> Projects </button>
+
+
+<script src = "file:///C:/Users/GWC-ATL-21/Desktop/GWC/gwc.js"> </script>
+  </html>
