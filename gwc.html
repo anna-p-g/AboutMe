@@ -4,8 +4,14 @@
 <body>
 <style>
 
-.list{
-
+.sidebar{
+  padding-right: 10px;
+  padding-left: 0px;
+  height: 100%;
+  width: 150px;
+  float: left;
+  color: blue;
+  display: inline;
 }
 
 .tabcontent{
@@ -17,26 +23,33 @@
 }
 
 .tablink{
+  height: 70px;
+  width: 100%;
+  display: block;
   color: black;
 }
 
 </style>
 
+  <div class = "sidebar">
+    <script src = "file:///C:/Users/GWC-ATL-21/Desktop/GWC/gwc.js"> </script>
+    <button class = "tablink" onclick = "openTab('aboutMe')"> About Me </button>
+    <button class = "tablink" onclick = "openTab('workExperience')"> Work Experience </button>
+    <button class = "tablink" onclick = "openTab('projects')"> Projects </button>
+  </div>
 
-<div id = "aboutMe" class = "tabcontent">
-<h1> These are my interests </h1>
+  <div class = "tabcontent" id = "aboutMe">
+    <h1> This is about me </h1>
+  </div>
 
-<div id = "workExperience" class = "tabcontent">
-  <h1> This is my work experience </h1>
+  <div class = "tabcontent" id = "workExperience">
+    <h1> this is my work experienceh </h1>
+  </div>
 
-<div id = "projects" class = "tabcontent">
-  <h1> These are my projects </h1>
-</div>
+  <div class = "tabcontent" id = "projects">
+    <h1> These are my projects </h1>
+  </div>
 
-<button class = "tablink" onclick = "openTab('aboutMe')"> About Me </button>
-<button class = "tablink" onclick = "openTab('workExperience')"> Work Experience </button>
-<button class = "tablink" onclick = "openTab('projects')"> Projects </button>
+  </body>
 
-
-<script src = "file:///C:/Users/GWC-ATL-21/Desktop/GWC/gwc.js"> </script>
-  </html>
+</html>
