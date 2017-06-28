@@ -1,0 +1,35 @@
+.tabbar{
+  display: block;
+  width: 100%;
+}
+
+#pagetitle {
+  display: block;
+  text-align: center;
+  color: purple;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.tablink{
+  width: 33.33%;
+  height: 70px;
+  float: left;
+  color: blue;
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+
+.tabcontent{
+  color: red;
+  display: none;
+  padding: none;
+  float: left;
+  align: center;
+}
+
+.defaultopen{
+  display: block;
+}

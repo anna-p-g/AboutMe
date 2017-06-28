@@ -1,55 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head><link rel="stylesheet" type="text/css" href="gwc.css"></head>
 <body>
-<style>
 
-.sidebar{
-  padding-right: 10px;
-  padding-left: 0px;
-  height: 100%;
-  width: 150px;
-  float: left;
-  color: blue;
-  display: inline;
-}
+<script src = "gwc.js"></script>g
 
-.tabcontent{
-  color: red;
-  display: none;
-  padding: 20px;
-  float: left;
-  align: center;
-}
+<div id = "pagetitle"> Anna Goetter </div>
 
-.tablink{
-  height: 70px;
-  width: 100%;
-  display: block;
-  color: black;
-}
-
-</style>
-
-  <div class = "sidebar">
-    <script src = "file:///C:/Users/GWC-ATL-21/Desktop/GWC/gwc.js"> </script>
+<div class = "tabbar">
     <button class = "tablink" onclick = "openTab('aboutMe')"> About Me </button>
     <button class = "tablink" onclick = "openTab('workExperience')"> Work Experience </button>
     <button class = "tablink" onclick = "openTab('projects')"> Projects </button>
   </div>
 
-  <div class = "tabcontent" id = "aboutMe">
+  <div class = "tabcontent defaultopen" id = "workExperience">
     <h1> This is about me </h1>
   </div>
 
-  <div class = "tabcontent" id = "workExperience">
-    <h1> this is my work experienceh </h1>
+  <div class = "tabcontent" id = "aboutMe">
+    <h1> This is my education</h1>
   </div>
 
   <div class = "tabcontent" id = "projects">
-    <h1> These are my projects </h1>
+    <h1> hese are my projects </h1>
   </div>
 
-  </body>
+</body>
 
 </html>
