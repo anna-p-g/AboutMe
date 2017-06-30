@@ -1,14 +1,11 @@
+function openTab(buttonid){
+  button_name = document.getElementById(buttonid);
+  button_group = document.getElementById("buttongroup");
+  buttons = document.getElementsByTagName("button");
 
-function openTab(tabName){
-  //all tabs
-  tabs = document.getElementsByClassName("tabcontent");
-
-  //hide all tab contents
-  for (var i = 0; i < tabs.length; i++){
-    tabs[i].style.display = "none";
+  for (var i = 0; i < buttons.length; i ++){
+    buttons[i].style.width = "12%";
   }
-
-  //display current tab content
-  document.getElementById(tabName).style.display = "block";
+  button_name.style.width = "76%";
 
 }

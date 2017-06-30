@@ -1,29 +1,23 @@
-yyy<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head><link rel="stylesheet" type="text/css" href="gwc.css"></head>
 <body>
 
-<script src = "gwc.js"></script>g
+<script src = "gwc.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
 <div id = "pagetitle"> Anna Goetter </div>
 
-<div class = "tabbar">
-    <button class = "tablink" onclick = "openTab('aboutMe')"> About Me </button>
-    <button class = "tablink" onclick = "openTab('workExperience')"> Work Experience </button>
-    <button class = "tablink" onclick = "openTab('projects')"> Projects </button>
-  </div>
+<div id = "buttongroup">
 
-  <div class = "tabcontent defaultopen" id = "workExperience">
-    <h1> This is about me </h1>
-  </div>
+    <button id = "lbutton" type = "button" onclick = "openTab('lbutton')"> About Me </button>
+    <button id = "mbutton" type = "button" onclick = "openTab('mbutton')" > Work Experience </button>
+    <button id = "rbutton" type = "button" onclick = "openTab('rbutton')"> Projects </button>
 
-  <div class = "tabcontent" id = "aboutMe">
-    <h1> This is my education</h1>
-  </div>
+</div>
 
-  <div class = "tabcontent" id = "projects">
-    <h1> hese are my projects </h1>
-  </div>
+
 
 </body>
 
