@@ -1,11 +1,11 @@
-function openTab(buttonid){
-  button_name = document.getElementById(buttonid);
-  button_group = document.getElementById("buttongroup");
-  buttons = document.getElementsByTagName("button");
+//var buttons = getElementsByTagName("button");
 
-  for (var i = 0; i < buttons.length; i ++){
-    buttons[i].style.width = "12%";
-  }
-  button_name.style.width = "76%";
-
-}
+$(document).ready(function(){
+    $("#buttongroup button").click(function(){
+      var i;
+      for (i = 0; i < buttons.length; i++){
+        $(buttons[i]).animate({width: '10%'});
+      }
+        $(this).animate({width: '80%'});
+    });
+});
