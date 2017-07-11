@@ -10,12 +10,12 @@
 }
 
 #buttongroup {
+  align-self: center;
   width: 100%;
-  height: 100%;
+  height: 70%;
 }
 
 #buttongroup button{
-  background-color: green;
   float: left;
   width: 33.33%;
   padding-top: 50%;
@@ -31,6 +31,18 @@
   background-color: red;
 }
 
+
+#buttongroup #lbutton{
+  background-image: url("./pics/mountain.jpg");
+}
+
+#buttongroup #mbutton{
+  background-image: url("./pics/sea.jpg");
+}
+
+#buttongroup #rbutton{
+  background-image: url("./pics/forrest.jpg");
+}
 
 .tabcontent{
   width: auto;
