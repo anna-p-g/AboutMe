@@ -10,7 +10,7 @@ $(document).ready(function(){
           id.style.webkitFilter = "blur(5px)";
         }
 
-        else{
+      else{
     	$(buttons[i]).animate({width: '10%', queue: false});
 		  }
 

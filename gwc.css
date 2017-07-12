@@ -25,23 +25,26 @@
   font-family: sans-serif;
   color: white;
   position: relative;
+  background-clip: border-box;
 }
 
 #buttongroup button:hover{
   background-color: red;
 }
 
-
 #buttongroup #lbutton{
-  background-image: url("./pics/mountain.jpg");
+  background-image: url("./pics/mountain.jpeg");
+
 }
 
 #buttongroup #mbutton{
   background-image: url("./pics/sea.jpg");
+
 }
 
 #buttongroup #rbutton{
   background-image: url("./pics/forrest.jpg");
+
 }
 
 .tabcontent{
