@@ -5,15 +5,15 @@ $(document).ready(function(){
     var id = $(this);
     for (i = 0; i < buttons.length; i++){
     	var button = $(buttons[i]);
-     	if (button.is(id)){
-        	$(id).animate({width: '80%', queue: false});
-          id.style.webkitFilter = "blur(5px)";
+     	if (!(button.is(id))){
+        	$(button).animate({width: '10%'}, {duration: queue: false});
+          buttons[i].setAttribute("style", "color:default");
         }
 
       else{
-    	$(buttons[i]).animate({width: '10%', queue: false});
+    	   $(id).animate({width: '80%'}, {queue: false});
+         this.setAttribute("style",  "color: rgba(0, 0, 0, 0)");
 		  }
-
-       }
-    });
+    }
+  });
 });
