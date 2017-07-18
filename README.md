@@ -1,3 +1,5 @@
-# GWC
+# Personal Website
 
-This is an exmaple for GWC
+This is the reposotiry for the code for my personal website
+
+
