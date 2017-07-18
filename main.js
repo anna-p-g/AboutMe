@@ -1,4 +1,3 @@
-
 var buttons = document.getElementsByTagName("button");
 
 $(document).ready(function(){
