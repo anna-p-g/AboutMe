@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+}
+
+html, body {
+  margin: 0;
+}
+
+.btn{
+  background-color: red;
+  border: 5px solid transparent;
+  border-radius: 0px;
+  line-height: auto;
+  height: 100%;
+}
+
+.btn-group-justified {
+  height: 100%;
+  background-color: red;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 100%;
+}
